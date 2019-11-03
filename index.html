@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <title>Clip It!</title>
+</head>
+
+<body>
+    <div class="bgimg-1 container-fluid">
+        <br>
+        <h1 class="display-3 text-light text-center font-weight-normal" style="text-shadow: 3px 3px #525252;">Clip It</h1>
+        <div class="container-fluid text-center" id="topDec">
+            <br>
+            <p class="text-center text-light">An automatic Twitch highlight generator</p>
+        </div>
+    </div>
+
+    <div class="container" id="input">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card clipit-card">
+                    <div id="urlBox" class="text-center">
+                        <form class="text-center">
+                            <div class="form-group input-group-lg">
+                                <input type="text" id="clip_url" placeholder="twitch.tv/videos/502873475" name="clip_url" value="" class="form-control input-lg clipit-textbox">
+                            </div>
+                            <button type="button" class="btn btn-lg btn-primary clipit-button" onclick="getData()">Get Highlights</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="desc">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card clipit-info-card">
+                    <div class="clipit-info-card-header">
+                        What is Clip It?
+                    </div>
+                    <div class="card-body">
+                        <p>Clip It allows you to find the highlights of all your favorite streams. Clip It was built by Joheen Chakraborty and Vincent Huang to ensure that even
+                            the busiest college student could still watch their favorite esports match, streamer, or tournament. We find all the highlights of a VOD and give you
+                            the timestamps for each highlight, so all you need to do is click on the timestamp to watch the most thrilling plays.</p>
+                        <p>We are both avid esports fans and with Clip It, we can now watch our the newest esports matches in a matter of minutes.</p>
+                    </div>
+                    <div class="clipit-info-card-header">
+                        How to use
+                    </div>
+                    <div class="card-body">
+                        <p>Getting started with Clip It is easy. Follow the steps below to view your highlights in no time!</p>
+                        <ol>
+                            <li>Find the twitch VOD you would like to download.
+                                <br>
+                                <p class="small">Note: the clip url should be in the format <a class="clipit-link" href="https://twitch.tv/videos/502873475">https://twitch.tv/videos/502873475</a></p>
+                            <li>Enter the link to the twitch VOD into the box above and click the "Get Highlights" button</li>
+                            <li>Finally you can click on any of the given timestamps to view the greatest plays of the VOD.<br>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="clipit-info-card-header">
+                        How it works
+                    </div>
+                    <div class="card-body">
+                        <p>We use Artificial Intelligence to find the greatest clips and plays of your given VOD. We use a whopping combination of
+                            Natural Language Processing, Sentiment analysis, and Twitch Chat Frequency to ensure that the clips we give you are truly the best parts the match.</p>
+                        <p>Check our more on our <a href="yeet">DevPost</a>!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <span class="text-muted">Made by <a class="clipr-link" href="https://github.com/joheenc">Joheen Chakraboty</a> and <a class="clipr-link" href="https://github.com/Huang-Vincent">Vincent Huang</a></span>
+            <p class="text-muted">This site is in no way affiliated with Twitch and was made for <a class="clipr-link" href="https://hackrpi.com/">HackRPI Fall 2019</a>.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

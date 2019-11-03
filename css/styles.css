@@ -1,0 +1,108 @@
+.bgimg-1 {
+    background: #5e35b1;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-links {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+body {
+    margin: 0;
+    font-family: proxima-nova,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif!important;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa
+}
+
+#form-space {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#input {
+    opacity: 0;
+}
+
+.footer {
+    padding-top: 25px;
+}
+
+#desc {
+    opacity: 0;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.clipit-card,.clipit-info-card {
+    -webkit-box-shadow: 0 15px 35px 0 rgba(18,37,49,.1),0 5px 15px 0 rgba(0,0,0,.05)!important;
+    box-shadow: 0 15px 35px 0 rgba(18,37,49,.1),0 5px 15px 0 rgba(0,0,0,.05)!important;
+    padding: 2rem;
+    border-radius: 4px;
+    border-style: none
+}
+
+.clipit-info-card-header {
+    font-weight: 800;
+    padding: .75rem 1.25rem
+}
+
+.elementToFadeInAndOut {
+    animation: fadeInOut 2s linear forwards;
+}
+
+.clipit-card {
+    margin-top: -25px;
+}
+
+.clipit-textbox {
+    background-color: #f1f5f8!important;
+    border: 0 solid #dae1e7;
+    margin-bottom: 16px;
+}
+
+.clipit-card,.clipit-info-card {
+    -webkit-box-shadow: 0 15px 35px 0 rgba(18,37,49,.1),0 5px 15px 0 rgba(0,0,0,.05)!important;
+    box-shadow: 0 15px 35px 0 rgba(18,37,49,.1),0 5px 15px 0 rgba(0,0,0,.05)!important;
+    padding: 2rem;
+    border-radius: 4px;
+    border-style: none
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.clipit-button {
+    border-style: none;
+    background: #895AE2!important;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em
+}
+
+.clipit-button:focus,.clipit-button:hover {
+    color: #fff;
+    background: #6441a5!important;
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08)
+}
