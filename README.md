@@ -7,5 +7,7 @@ Clip It allows you to find the highlights of your favorite streams. Given the UR
 
 We then look at the product of the differences between each metric and its rolling median--the clips with the highest value for this number therefore have large spike in both metrics. We return the timestamps with the highest values to make our highlight reel!
 
+![Image of Data Analysis](https://github.com/Huang-Vincent/ClipIt/blob/master/annotated.png)
+
 ## How we built it
 We get Twitch chat data with the twitch-python API, and then analyze it with GCP's NLP API as well as our own statistical algorithm in Python. We host the backend server with Python + Flask. The frontend is in HTML + Javascript, connected to backend with Socket IO.
